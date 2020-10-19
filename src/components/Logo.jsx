@@ -31,7 +31,7 @@ const Picture = styled.picture`
             position: absolute;   
             top: 39.5%; 
             left: -97px;
-            //TODO Move box with hover
+            //TODO Move box with hover!
             width: 191px;
             height: 184px;
         }
