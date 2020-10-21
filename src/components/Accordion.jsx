@@ -27,7 +27,7 @@ const H1 = styled.h1`
 
 const Accordion = ({handleonMouseOver, handleOnMouseLeave}) =>{
 
-    const [active, setActive] = useState("");
+    const [active, setActive] = useState("question2");
 
     const handleClick = (question)=>{
 
