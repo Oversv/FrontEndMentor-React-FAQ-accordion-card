@@ -7,21 +7,21 @@ import box from '../assets/images/illustration-box-desktop.svg'
 import styled from 'styled-components'
 
 const Picture = styled.picture`   
-    width: 270px;
-    margin-left: -30px;
+    width: 270px;    
     position: absolute;
     top: -110px;
+    right: calc(50% - 116px);    
     padding-bottom: 20px;
     background-image: url(${bgPatternMobile});
     background-repeat: no-repeat;     
     background-position: 100% 98%;        
 
-    @media screen and (min-width: 768px){       
+    @media screen and (min-width: 1024px){       
         position: static;        
         width: 50%;
         height: 100%;
-        padding-top: 68px;
-        margin-left: -80px;
+        padding-top: 110px;
+        margin-left: -145px;
         background-image: url(${bgPatternDesktop});   
         background-size: 966px 945px;
         background-position: 100% 68%;
@@ -30,17 +30,19 @@ const Picture = styled.picture`
             content: url(${box});
             position: absolute;   
             top: 39.5%; 
-            left: -97px;
-            //TODO Move box with hover!
+            left: ${({boxPosition}) => boxPosition};            
             width: 191px;
             height: 184px;
+            transition: left .3s
         }
     }    
 `
-const Logo = () =>{
+
+const Logo = ({boxPosition}) =>{
+    
     return (
-        <Picture> 
-            <source media="(min-width:768px)" srcSet={imageDesktop}/>  
+        <Picture boxPosition={boxPosition}> 
+            <source media="(min-width:1024px)" srcSet={imageDesktop}/>  
             <img src={imageMobile} alt="woman online"/>         
         </Picture>
     )

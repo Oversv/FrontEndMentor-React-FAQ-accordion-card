@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from './components/Logo'
 import Accordion from './components/Accordion'
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components"
 import theme from './assets/theme/theme'
-
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -17,18 +16,23 @@ const GlobalStyle = createGlobalStyle`
     font-size: 12px;
     min-height: 100vh;
     margin: 148px 24px 0 24px;
-    background: linear-gradient(180deg, hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100%); //! Cambiar colores
+    background: linear-gradient(180deg, hsl(273, 75%, 66%) 0%, hsl(240, 73%, 65%) 100%);
 
-    @media screen and (min-width: 768px){
-      margin-top: 128px;
+    @media screen and (min-width: 1024px){
+      margin-top: 128px;                
     }
   }
 
   main{    
-    position: relative;
-    max-width: 920px;  
+    position: relative;    
+    max-width: 600px; 
     margin-right: auto;
-    margin-left: auto;     
+    margin-left: auto;
+
+    @media screen and (min-width: 1024px){
+      width: 80%;
+      max-width: 920px;              
+    }
   }
 `
 
@@ -38,20 +42,22 @@ const MainOverflowHidden = styled.div`
     display: flex;  
     flex-direction: column;
     align-items: flex-start;
-    background-color: white;
+    background-color: white; 
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1024px){
       flex-direction: row;
-      justify-content: space-between;    
-      margin-left: auto;
-      margin-right: auto;
+      justify-content: space-between;
       height: 509px;
-      padding: 0;
-      overflow: hidden;      
+      padding: 0 85px;
+      overflow: hidden;                 
     }
 `
 
 function App() {
+
+  const [boxPosition, setBoxPosition] = useState('-97px')
+  const handleonMouseOver = () => setBoxPosition('-130px')
+  const handleOnMouseLeave = () => setBoxPosition('-97px')
 
   return (
     <>    
@@ -59,8 +65,11 @@ function App() {
       <ThemeProvider theme={theme}>
         <main>
           <MainOverflowHidden>
-            <Logo/>
-            <Accordion/>
+            <Logo boxPosition={boxPosition}/>
+            <Accordion 
+              handleonMouseOver={handleonMouseOver}
+              handleOnMouseLeave={handleOnMouseLeave}
+            />
           </MainOverflowHidden>
         </main>
       </ThemeProvider>

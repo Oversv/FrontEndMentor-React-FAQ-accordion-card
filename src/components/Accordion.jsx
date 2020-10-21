@@ -4,27 +4,28 @@ import styled from 'styled-components'
 
 const Section = styled.section`    
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 10px;    
     
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1024px){
         max-width: 335px;
         margin-right: 110px;                 
     }
 `
+
 const H1 = styled.h1`
     text-align: center;
     font-size: 2rem;
     margin-top:115px;
     margin-bottom: 30px;
 
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 1024px){
         text-align: start;
         margin-top:70px;
         margin-bottom: 36px;
     }
 `
 
-const Accordion = () =>{
+const Accordion = ({handleonMouseOver, handleOnMouseLeave}) =>{
 
     const [active, setActive] = useState("");
 
@@ -46,7 +47,9 @@ const Accordion = () =>{
                 content="You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan."
                 question="question1"
                 active = {active}    
-                handleClick={handleClick}               
+                handleClick={handleClick}
+                handleonMouseOver={handleonMouseOver}
+                handleOnMouseLeave={handleOnMouseLeave}                
             />
 
             <AccordionContent
@@ -55,6 +58,8 @@ const Accordion = () =>{
                 question="question2"
                 active = {active}            
                 handleClick={handleClick}
+                handleonMouseOver={handleonMouseOver}
+                handleOnMouseLeave={handleOnMouseLeave}
             />
 
             <AccordionContent
@@ -63,6 +68,8 @@ const Accordion = () =>{
                 question="question3"
                 active = {active}            
                 handleClick={handleClick}
+                handleonMouseOver={handleonMouseOver}
+                handleOnMouseLeave={handleOnMouseLeave}
             />
 
             <AccordionContent
@@ -71,6 +78,8 @@ const Accordion = () =>{
                 question="question4"
                 active = {active}            
                 handleClick={handleClick}
+                handleonMouseOver={handleonMouseOver}
+                handleOnMouseLeave={handleOnMouseLeave}
             />
 
             <AccordionContent
@@ -79,8 +88,9 @@ const Accordion = () =>{
                 question="question5"
                 active = {active}            
                 handleClick={handleClick}
+                handleonMouseOver={handleonMouseOver}
+                handleOnMouseLeave={handleOnMouseLeave}
             />
-
         </Section>
     )
 }

@@ -6,6 +6,4 @@ export default{
     dividers: 'hsl(240, 5%, 91%)',
     bgGradient1: 'hsl(273, 75%, 66%)',
     bgGradient2: 'hsl(240, 73%, 65%)'
-
-    
 }
