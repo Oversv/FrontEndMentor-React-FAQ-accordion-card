@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c8de5e69dd1d8448e86a1910e6950d6",
+    "revision": "36ef44c60f561c579901eb09b2fc339c",
     "url": "/FrontEndMentor-React-FAQ-accordion-card/index.html"
   },
   {
-    "revision": "c259958e664a6b5e7563",
+    "revision": "f98653496927b1e4d1b9",
     "url": "/FrontEndMentor-React-FAQ-accordion-card/static/css/main.f0b4bdd0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c259958e664a6b5e7563",
-    "url": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.e4344161.chunk.js"
+    "revision": "f98653496927b1e4d1b9",
+    "url": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.f4222c28.chunk.js"
   },
   {
     "revision": "70052473e21d659abfbe",
