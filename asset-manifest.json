@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FrontEndMentor-React-FAQ-accordion-card/static/css/main.f0b4bdd0.chunk.css",
-    "main.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.9027b7f5.chunk.js",
-    "main.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.9027b7f5.chunk.js.map",
+    "main.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.e4344161.chunk.js",
+    "main.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.e4344161.chunk.js.map",
     "runtime-main.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/runtime-main.cac4cdd6.js",
     "runtime-main.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/runtime-main.cac4cdd6.js.map",
     "static/js/2.88ab25b0.chunk.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js",
     "static/js/2.88ab25b0.chunk.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js.map",
     "index.html": "/FrontEndMentor-React-FAQ-accordion-card/index.html",
-    "precache-manifest.a89661a13995ee0482724c377122b61a.js": "/FrontEndMentor-React-FAQ-accordion-card/precache-manifest.a89661a13995ee0482724c377122b61a.js",
+    "precache-manifest.64aae95fdb0dc7ed6944c40a27d7f1dd.js": "/FrontEndMentor-React-FAQ-accordion-card/precache-manifest.64aae95fdb0dc7ed6944c40a27d7f1dd.js",
     "service-worker.js": "/FrontEndMentor-React-FAQ-accordion-card/service-worker.js",
     "static/css/main.f0b4bdd0.chunk.css.map": "/FrontEndMentor-React-FAQ-accordion-card/static/css/main.f0b4bdd0.chunk.css.map",
     "static/js/2.88ab25b0.chunk.js.LICENSE.txt": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.cac4cdd6.js",
     "static/js/2.88ab25b0.chunk.js",
     "static/css/main.f0b4bdd0.chunk.css",
-    "static/js/main.9027b7f5.chunk.js"
+    "static/js/main.e4344161.chunk.js"
   ]
 }

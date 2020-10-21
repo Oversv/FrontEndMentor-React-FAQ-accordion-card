@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FrontEndMentor-React-FAQ-accordion-card/precache-manifest.a89661a13995ee0482724c377122b61a.js"
+  "/FrontEndMentor-React-FAQ-accordion-card/precache-manifest.64aae95fdb0dc7ed6944c40a27d7f1dd.js"
 );
 
 self.addEventListener('message', (event) => {
