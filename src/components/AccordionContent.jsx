@@ -22,6 +22,7 @@ const Question = styled.h4`
     @media screen and (min-width: 1024px){
         font-size: 14.2px;
         margin-top: 18px;
+
         &:hover{
             cursor: pointer;     
             color: ${({theme}) => theme.primaryText2}; 
@@ -34,11 +35,10 @@ const Answer = styled.p`
     overflow: hidden;
     margin-top: 0;
     padding-bottom: ${({open}) => open ? '15px': 0};
-    line-height: 20px;
     padding-right: 20px;
+    line-height: 20px;
     color: ${({theme}) => theme.neutralText2};
-    border-bottom: 1px solid ${({theme}) => theme.dividers};  
-          
+    border-bottom: 1px solid ${({theme}) => theme.dividers};           
 `
 
 const AccordionContent = ({text, content, question, active, handleClick, handleonMouseOver, handleOnMouseLeave}) =>{  
