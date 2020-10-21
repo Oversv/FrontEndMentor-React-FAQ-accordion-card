@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FrontEndMentor-React-FAQ-accordion-card/static/css/main.f0b4bdd0.chunk.css",
+    "main.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.9027b7f5.chunk.js",
+    "main.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/main.9027b7f5.chunk.js.map",
+    "runtime-main.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/runtime-main.cac4cdd6.js",
+    "runtime-main.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/runtime-main.cac4cdd6.js.map",
+    "static/js/2.88ab25b0.chunk.js": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js",
+    "static/js/2.88ab25b0.chunk.js.map": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js.map",
+    "index.html": "/FrontEndMentor-React-FAQ-accordion-card/index.html",
+    "precache-manifest.a89661a13995ee0482724c377122b61a.js": "/FrontEndMentor-React-FAQ-accordion-card/precache-manifest.a89661a13995ee0482724c377122b61a.js",
+    "service-worker.js": "/FrontEndMentor-React-FAQ-accordion-card/service-worker.js",
+    "static/css/main.f0b4bdd0.chunk.css.map": "/FrontEndMentor-React-FAQ-accordion-card/static/css/main.f0b4bdd0.chunk.css.map",
+    "static/js/2.88ab25b0.chunk.js.LICENSE.txt": "/FrontEndMentor-React-FAQ-accordion-card/static/js/2.88ab25b0.chunk.js.LICENSE.txt",
+    "static/media/bg-pattern-desktop.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/bg-pattern-desktop.a2580ee9.svg",
+    "static/media/bg-pattern-mobile.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/bg-pattern-mobile.40d8475d.svg",
+    "static/media/icon-arrow-down.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/icon-arrow-down.ba0110cb.svg",
+    "static/media/illustration-box-desktop.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/illustration-box-desktop.a7ef46ea.svg",
+    "static/media/illustration-woman-online-desktop.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/illustration-woman-online-desktop.44e30650.svg",
+    "static/media/illustration-woman-online-mobile.svg": "/FrontEndMentor-React-FAQ-accordion-card/static/media/illustration-woman-online-mobile.daf66934.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cac4cdd6.js",
+    "static/js/2.88ab25b0.chunk.js",
+    "static/css/main.f0b4bdd0.chunk.css",
+    "static/js/main.9027b7f5.chunk.js"
+  ]
+}
