@@ -2,7 +2,10 @@
 
 ![Design preview for the FAQ Accordion Card coding challenge](./design/desktop-preview.jpg)
 
+## Live: https://oversv.github.io/FrontEndMentor-React-FAQ-accordion-card/
+
 ## Welcome! 👋
+
 
 Thanks for checking out this front-end coding challenge.
 
