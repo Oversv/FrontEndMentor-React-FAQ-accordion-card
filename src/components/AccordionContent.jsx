@@ -42,34 +42,19 @@ const Answer = styled.p`
 `
 
 const AccordionContent = ({text, content, question, active, handleClick, handleonMouseOver, handleOnMouseLeave}) =>{  
-   
-    if(active === question){       
-        return(
-            <>   
-                <Question 
-                    open 
-                    onClick={()=>handleClick(question)}
-                    onMouseOver = {handleonMouseOver}
-                    onMouseLeave = {handleOnMouseLeave}
-                    >{text}
-                </Question> 
-                <Answer open>{content}</Answer> 
-            </>
-        )
-
-     }else{
-         return(
-             <>   
-                 <Question 
-                    onClick={()=>handleClick(question)}
-                    onMouseOver = {handleonMouseOver}
-                    onMouseLeave = {handleOnMouseLeave}
-                    >{text}
-                </Question> 
-                 <Answer>{content}</Answer> 
-             </>
-         )
-     }    
+    
+    return(
+        <> 
+            <Question                   
+                open={active === question ? true : false}
+                onClick={()=>handleClick(question)}
+                onMouseOver = {handleonMouseOver}
+                onMouseLeave = {handleOnMouseLeave}
+                >{text}
+            </Question> 
+            <Answer open={active === question ? true : false}>{content}</Answer> 
+        </>
+    )     
 }
 
 export default AccordionContent
